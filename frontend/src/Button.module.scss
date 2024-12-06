@@ -1,0 +1,21 @@
+.path {
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 0;
+
+	&.check {
+		stroke-dashoffset: -100;
+		-webkit-animation: dash-check 0.9s 0.35s ease-in-out forwards;
+		animation: dash-check 0.9s 0.35s ease-in-out forwards;
+	}
+
+	&.circle {
+		-webkit-animation: dash 0.9s ease-in-out;
+		animation: dash 0.9s ease-in-out;
+	}
+
+	&.line {
+		stroke-dashoffset: 1000;
+		-webkit-animation: dash 0.9s 0.35s ease-in-out forwards;
+		animation: dash 0.9s 0.35s ease-in-out forwards;
+	}
+}
