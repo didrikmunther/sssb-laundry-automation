@@ -6,7 +6,13 @@ In the Stockholm Student Housing ([SSSB](https://sssb.se/)), the laundry rooms a
 [The website](https://sssb.aptustotal.se/AptusPortal/Account/Login) is slow, and the booking process is cumbersome.
 This project aims to simplify the booking process by automatically scraping the website and sending calendar invites to the users, allowing them to book the laundry room directly from their calendar.
 
-## Showcase
+## Demonstration
+
+### Problem - Existing Booking Page
+
+<img src="https://github.com/user-attachments/assets/4d8e61cd-1e1b-4b46-87f9-80c214432245" width="400px">
+
+### Solution - This Project
 
 <table>
   <tr>
